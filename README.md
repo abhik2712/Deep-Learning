@@ -46,3 +46,20 @@ Various Deep Learning Applications using Tensorflow and Keras API
 
 - The above case with two hidden layers is an example of **overfitting**.
 
+
+### Dataset 2.1: Dogs and Cats
+
+#### Goal : Classify whether image is of cat(label 1) or dog(label 0)
+
+#### About the dataset:
+
+- The dataset used is a filtered version of Dogs vs. Cats dataset from Kaggle (ultimately, this dataset is provided by Microsoft Research).
+- In this project, we use the class **tf.keras.preprocessing.image.ImageDataGenerator** which will read data from disk. We therefore need to directly download Dogs vs. Cats from a URL and unzip it to the runtime environment.
+
+#### Challenges and Solutions
+
+- This dataset consists of images of different size but our model requires fixed size input, thus we resize our image to 150x150 pixel resolution.
+- This dataset consists of colored images thus in our model we provide input_shape=(150,150,**3**) where the 3 refers to **RGB** channel of the color image.
+
+
+
