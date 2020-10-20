@@ -1,9 +1,6 @@
-# Deep-Learning
-Various Deep Learning Applications using Tensorflow and Keras API
+# Convolutional Neural Network
 
-## 1.Convolution Neural Networks(CNN)
-
-### Dataset 1: Fashion MNIST
+## Dataset 1: Fashion MNIST
 
 #### About the Dataset:
 
@@ -47,7 +44,7 @@ Various Deep Learning Applications using Tensorflow and Keras API
 - The above case with two hidden layers is an example of **overfitting**.
 
 
-### Dataset 2.1: Dogs and Cats
+## Dataset 2.1: Dogs and Cats
 
 #### Goal : Classify whether image is of cat(label 1) or dog(label 0)
 
