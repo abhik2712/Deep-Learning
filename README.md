@@ -66,5 +66,6 @@
 
 - Upon processing our data using the above mentioned model we get the following output after 20 epochs:
 
+<img width="500" alt="Screenshot 2020-10-20 at 10 59 35 PM" src="https://user-images.githubusercontent.com/31176045/96623293-c6cee700-1328-11eb-81d7-bc83b772ea62.png">
 
-
+- Thus it is clearly visible that our training accuracy reached approx. 100% accuracy after 17 epochs whereas the validation accuracy started to pan out after 20 epochs. This means the model has memorized the training input and thus it performs poorly on validation set(newly seen data). This is a simple case of **overfitting**.
