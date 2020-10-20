@@ -62,6 +62,9 @@
 
 - The summary of our model is shown below:
 
+<img width="1000" alt="Screenshot 2020-10-20 at 11 02 05 PM" src="https://user-images.githubusercontent.com/31176045/96623124-83747880-1328-11eb-9768-eed8cada260c.png">
+
+- Upon processing our data using the above mentioned model we get the following output after 20 epochs:
 
 
 
