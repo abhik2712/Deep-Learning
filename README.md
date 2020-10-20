@@ -5,6 +5,8 @@ Various Deep Learning Applications using Tensorflow and Keras API
 
 ### Datasets : Fashion MNIST
 
+##### About the Dataset:
+
 - We'll need TensorFlow Datasets, an API that simplifies downloading and accessing datasets, and provides several sample datasets to work with.
 - The Fashion MNIST dataset, which contains 70,000 grayscale images in 10 categories. The images show individual articles of clothing at low resolution (28  ×  28 pixels), as seen here
 
@@ -12,4 +14,12 @@ Various Deep Learning Applications using Tensorflow and Keras API
 
 
 - The labels are an array of integers, in the range [0, 9]. These correspond to the class of clothing the image represents:
+
+<img width="440" alt="Screenshot 2020-10-20 at 7 38 04 PM" src="https://user-images.githubusercontent.com/31176045/96597783-da1f8980-130b-11eb-840d-821fec7adb39.png">
+
+##### Applying Convolutional NN Model
+
+- The details of the model is shown below:
+  
+  
 
