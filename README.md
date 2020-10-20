@@ -58,5 +58,10 @@
 - This dataset consists of images of different size but our model requires fixed size input, thus we resize our image to 150x150 pixel resolution.
 - This dataset consists of colored images thus in our model we provide input_shape=(150,150,**3**) where the 3 refers to **RGB** channel of the color image.
 
+#### Model Evalution
+
+- The summary of our model is shown below:
+
+
 
 
