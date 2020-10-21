@@ -86,3 +86,7 @@
 #### Goal : To classify images of flowers
 
 - The dataset contains images of 5 types of flowers: Rose, Daisy, Dandelion, Sunflowers, Tulips.
+
+- Upon performing the experiment on 10 epochs we saw that after 8 epochs the validation accuracy decreases in comparison to training accuracy. Thus we can stop our model at 8 epochs(**Early Stopping**).
+
+
