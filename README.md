@@ -44,7 +44,7 @@
 - The above case with two hidden layers is an example of **overfitting**.
 
 
-## Dataset 2.1: Dogs and Cats
+## Dataset 2: Dogs and Cats
 
 #### Goal : Classify whether image is of cat(label 1) or dog(label 0)
 
@@ -81,4 +81,8 @@
 
 - Thus we can see our model perform much better than our previous model on performing the above transformations.
 
+## Dataset 3: Flower Classification
 
+#### Goal : To classify images of flowers
+
+- The dataset contains images of 5 types of flowers: Rose, Daisy, Dandelion, Sunflowers, Tulips.
