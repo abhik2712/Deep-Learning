@@ -90,3 +90,13 @@
 - Upon performing the experiment on 10 epochs we saw that after 7 epochs the validation accuracy decreases in comparison to training accuracy. Thus we can stop our model at 8 epochs(**Early Stopping**).
 
 <img width="500" alt="Screenshot 2020-10-21 at 8 27 12 AM" src="https://user-images.githubusercontent.com/31176045/96667749-484d6600-1377-11eb-86ff-6425dc24a2c8.png">
+
+### Transfer Learning
+
+- Transfer learning is a process where you take an existing trained model, and extend it to do additional work. This involves leaving the bulk of the model unchanged, while adding and retraining the final layers, in order to get a different set of possible outputs.
+
+- We use the feature vector that corresponds to the [Inception v3 model](https://tfhub.dev/s?module-type=image-feature-vector&q=tf2).
+
+- There's a huge boost in performance compared to previous models. The training and validation accuracy and loss plot are shown below:
+
+
