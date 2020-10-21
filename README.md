@@ -99,4 +99,6 @@
 
 - There's a huge boost in performance compared to previous models. The training and validation accuracy and loss plot are shown below:
 
+<img width="500" alt="Screenshot 2020-10-21 at 11 59 52 AM" src="https://user-images.githubusercontent.com/31176045/96681591-2662dc00-1395-11eb-8457-3429e56fb40e.png">
 
+- The validation performance is better than training performance right from the begining of execution because validation performance is measured at the end of the epoch, but training performance is the average values across the epoch.
