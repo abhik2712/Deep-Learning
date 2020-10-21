@@ -87,6 +87,6 @@
 
 - The dataset contains images of 5 types of flowers: Rose, Daisy, Dandelion, Sunflowers, Tulips.
 
-- Upon performing the experiment on 10 epochs we saw that after 8 epochs the validation accuracy decreases in comparison to training accuracy. Thus we can stop our model at 8 epochs(**Early Stopping**).
+- Upon performing the experiment on 10 epochs we saw that after 7 epochs the validation accuracy decreases in comparison to training accuracy. Thus we can stop our model at 8 epochs(**Early Stopping**).
 
-
+<img width="500" alt="Screenshot 2020-10-21 at 8 27 12 AM" src="https://user-images.githubusercontent.com/31176045/96667749-484d6600-1377-11eb-86ff-6425dc24a2c8.png">
