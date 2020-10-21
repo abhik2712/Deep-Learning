@@ -69,3 +69,12 @@
 <img width="500" alt="Screenshot 2020-10-20 at 10 59 35 PM" src="https://user-images.githubusercontent.com/31176045/96623293-c6cee700-1328-11eb-81d7-bc83b772ea62.png">
 
 - Thus it is clearly visible that our training accuracy reached approx. 100% accuracy after 17 epochs whereas the validation accuracy started to pan out after 20 epochs. This means the model has memorized the training input and thus it performs poorly on validation set(newly seen data). This is a simple case of **overfitting**.
+
+#### To mitigate overfitting we take following steps on the DogsvsCats dataset
+
+- Generate validation set from training images
+- **Image Augmentation:** To perform image transformation on training images such that our CNN model does not memorise the training images since our training set deosn't have sufficient training examples.
+- Perform **dropout** on the neurons of the hidden layers with certain probability.
+- The resulting output is shown on modifying the model as mentioned above:
+
+
