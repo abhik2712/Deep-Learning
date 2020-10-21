@@ -77,4 +77,8 @@
 - Perform **dropout** on the neurons of the hidden layers with certain probability.
 - The resulting output is shown on modifying the model as mentioned above:
 
+<img width="550" alt="Screenshot 2020-10-21 at 7 24 42 AM" src="https://user-images.githubusercontent.com/31176045/96663618-a32e8f80-136e-11eb-9ad8-508d1765d041.png">
+
+- Thus we can see our model perform much better than our previous model on performing the above transformations.
+
 
